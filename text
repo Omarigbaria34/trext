@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <title>Dodge Challenger</title>
+    <style>
+        body {
+            background-color: #797373;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #carName {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 20px;
+            text-decoration: underline;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #carImage {
+            max-width: 70%;
+            height: auto;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #carImage:hover {
+            transform: scale(1.1);
+        }
+
+        #carDescription {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 30%;
+            height: auto;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="carName">Dodge Challenger</div>
+    <a href="https://en.wikipedia.org/wiki/Dodge_Challenger">
+        <img id="carImage" src="2018-dodge-challenger-srt-demon-first-drive-review-car-and-driver-photo-686155-s-original.jpg" alt="Dodge Challenger">
+    </a>
+    <div id="carDescription">
+        <h2>
+            The Dodge Challenger is a classic American muscle car that has been produced by the Dodge division of Stellantis (formerly Fiat Chrysler Automobiles) since 1970. The Challenger has gone through various iterations over the years, and it is known for its bold and aggressive design, powerful engines, and high-performance capabilities.
+        </h2>
+        <h3>Key features and aspects of the Dodge Challenger include:</h3>
+        <h4>Design: The Challenger is recognized for its retro-inspired styling, reminiscent of the original model from the 1970s. It often features a wide and muscular stance, bold lines, and various color and stripe options that contribute to its distinct appearance.</h4>
+        <h4>Performance: Dodge offers a range of powerful engines for the Challenger, catering to enthusiasts who seek high-performance driving experiences. Engine options include V6 and V8 configurations, with some models boasting exceptionally high horsepower.</h4>
+        <h4>Variants: The Challenger lineup includes a variety of trims and special editions, such as the SRT Hellcat and the Demon. These variants often come with increased horsepower, performance enhancements, and unique features.</h4>
+        <h4>Technology: While maintaining its classic appeal, the Challenger also incorporates modern technology features. Depending on the trim level, it may include advanced infotainment systems, safety features, and driver assistance technologies.</h4>
+        <h4>Heritage: The Challenger has a rich heritage and is often associated with the golden era of American muscle cars. Its enduring popularity among car enthusiasts is fueled by the combination of nostalgia and cutting-edge performance.</h4>
+
+    </div>
+    <div class="image-container" style="size: 40px;">
+        <img src="dodge-challenger-scat-pack-swinger.webp" width="500" height="60" alt="Description">
+        <img src="enen.jpg" width="500" height="60" alt="Description">
+        <img src="dodge 2.jpg" width="500" height="60" alt="Description">
+        <img src="dodge 1.jpeg" width="500" height="60" alt="Description">
+    </div>
+</body>
+</html>
